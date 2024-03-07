@@ -26,7 +26,7 @@ const greeting = {
     "Over 2+ years of work experience as a Machine Learning Engineer and Data Engineer.Skilled in architecting end-to-end ETL processes, harnessing technologies such as Spark, Spark Streaming, Databricks, and Azure Data Factory, to efficiently manage and process large-scale data pipelines."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1CqsjL5H28YLdTEaAm9v3TXmmtcq-M88z/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/mnx02",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/manavchetwani/",
   gmail: "manav01chetwani@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -65,48 +65,32 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
+      skillName: "fire",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "jira",
+      fontAwesomeClassname: "fab fa-jira"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
       skillName: "docker",
@@ -126,9 +110,9 @@ const educationInfo = {
       logo: require("./assets/images/windsorLogo.png"),
       subHeader: "Master of Applied Computing",
       duration: "Jan 2023 – Apr 2024",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Developed several impactful projects like a Personalized Edu-Career Recommender that integrates big data analytics and diverse classification algorithms for accurate predictions in education and employment decisions.",
       descBullets: [
-        "Implemented a Grocery Website Analysis prototype using Selenium for web scraping and parsing HTML content using JAVA, also implemented an inverted indexing approach to validate and extract relevant text from various shop websites in Canada in order to utilize extracted data to provide users with the best deals available.",
+        "I conducted a Comparative Study of Trainable Networks in Transfer Learning for Dog Breed Identification, exploring different architectures for transfer learning models. I also developed WeSeeU, a proof-of-concept software to make games accessible to visually impaired people, which was selected for the Annual Demo Day presentation.",
         "Showcased strong problem-solving skills and a deep understanding of e-commerce dynamics"
       ]
     },
@@ -139,8 +123,8 @@ const educationInfo = {
       duration: "Jul 2018 – Mar 2022",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
-        "Developed a project with the goal of optimizing dog breed identification using advanced transfer learning models like RNNs and CNNs.",
-        "Leveraged cutting-edge technologies to modify pre-trained models using mlflows through layered adjustments, aiming to boost efficiency in classifying labeled dog images."]
+        "Teaching Assistant Intern at University, where assited 2nd year computer science students in grasping core data structures like linked lists, arrays, stacks, queues, trees, and hash tables. Provided individualized support to students during coding exercises and assignments, ensuring their comprehension and growth in implementing data structures and algorithms.",
+        "Strategic Core at Projection (Volunteer-ship), responsible for providing creative ideas, and conducting expansive and detailed analysis to make well informed strategic decisions for Projections which had 7000 participants and 15000 viewers in past years."]
     }
   ]
 };
@@ -250,7 +234,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/githubLogo.png"),
+      image: require("./assets/images/3.png"),
       projectName: "Grocery Website Analysis",
       projectDesc: "The project involves developing a back-end software application that uses concepts like Web crawler, Data validation using regular expressions, HTML parser, Inverted indexing, Frequency count, Page ranking, Spell checking, Word completion, Search frequency, Finding patterns using regular expressions.",
       footerLink: [
@@ -262,7 +246,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/githubLogo.png"),
+      image: require("./assets/images/1 (2).png"),
       projectName: "Comparative Study of Trainable Network in Transfer Learning",
       projectDesc: "The comparative studying between different architectures for transfer learning models in the context of dog breed identification. Dog breed identification is a classic problem in computer vision, where the goal is to classify images of dogs into different breeds.",
       footerLink: [
@@ -273,7 +257,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/githubLogo.png"),
+      image: require("./assets/images/2.png"),
       projectName: "WeSeeU",
       projectDesc: "This is a POC of software to make games accessible to visually impaired people. Software is developed by the help of various python libraries (pyautogui, opencv, gTTS, speech recognization, etc.) and in agile methodologies. This POC includes two games StickMan Archer 2 by Crazy games and Ball Game as a part of project.",
       footerLink: [
