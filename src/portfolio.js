@@ -20,22 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Manav Chetwani",
-  title: "Hi all, I'm Manav Chetwani",
+  username: "Amaan Vahora",
+  title: "Hi all, I'm Amaan Vahora",
   subTitle: emoji(
-    "Over 2+ years of work experience as a Machine Learning Engineer and Data Engineer.Skilled in architecting end-to-end ETL processes, harnessing technologies such as Spark, Spark Streaming, Databricks, and Azure Data Factory, to efficiently manage and process large-scale data pipelines."
+    "Over 2+ years of work experience as a Software Developer .Skilled in architecting end-to-end Softwares, harnessing technologies such as Blockchain and Web3."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1CqsjL5H28YLdTEaAm9v3TXmmtcq-M88z/view?usp=drivesdk", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1f1U_5soQsE43XCSmuNxGm3mqvrC3Nbc8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mnx02",
-  linkedin: "https://www.linkedin.com/in/manavchetwani/",
-  gmail: "manav01chetwani@gmail.com",
+  github: "https://github.com/Amaanvahora",
+  linkedin: "https://www.linkedin.com/in/amaan-vahora-443a531b7/",
+  gmail: "amaanvahora7294@gmail.com@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -45,19 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
     emoji(
-      "⚡ Scripting Languages: C, C++, Python, Java, Scala, HTML, Shell Scripting"
+      "⚡ Scripting Languages: C, C++, Python, Java, Scala, HTML, Shell Scripting,Solidity, Typescript, React"
     ),
-    emoji("⚡ Big Data Processing Tools: Apache Hadoop, Apache Spark, Apache Hive, Apache Kafka"),
     emoji("⚡ Database: MongoDB, SQL, MySQL"),
-    emoji("⚡ Machine Learning Tools: TensorFlow, Keras, PyTorch, XGBoost, Naive Bayes, Numpy, Pandas"),
-    emoji("⚡ Version Control & Management: Git, GitLab, Github, JIRA, Agile Scrum, SDLC"),
-    emoji("⚡ Others: Docker, Jenkins, CI/CD, REST APIs, Django, JSON, XML, Microsoft Office"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Version Control & Management: Git, GitLab, Github, JIRA"),
+    emoji("⚡ Others: Docker, Jenkins, CI/CD, REST APIs, Django, JSON, XML,Terraform, Ganache, Kubernetes")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,8 +64,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "smart contracts",
+      fontAwesomeClassname: "fas fab fa-file-contract"
     },
     {
       skillName: "database",
@@ -106,14 +101,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Windsor University",
+      schoolName: "George Brown College",
       logo: require("./assets/images/windsorLogo.png"),
-      subHeader: "Master of Applied Computing",
-      duration: "Jan 2023 – Apr 2024",
-      desc: "Developed several impactful projects like a Personalized Edu-Career Recommender that integrates big data analytics and diverse classification algorithms for accurate predictions in education and employment decisions.",
+      subHeader: "Post Graduation in Blockchain Technology",
+      duration: "Sept 2023 – Aug 2024",
+      desc: "",
       descBullets: [
-        "I conducted a Comparative Study of Trainable Networks in Transfer Learning for Dog Breed Identification, exploring different architectures for transfer learning models. I also developed WeSeeU, a proof-of-concept software to make games accessible to visually impaired people, which was selected for the Annual Demo Day presentation.",
-        "Showcased strong problem-solving skills and a deep understanding of e-commerce dynamics"
+        "Developed several impactful projects like a Personalized Defi-app Token exchanger that integrates Web 3 and diverse classification of Blockchains for doing Uniswap.",
+        "I conducted a Comparative Study of Devops tools like Docker, Kubernetes, Ganache, Jenkins."
       ]
     },
     {
@@ -121,10 +116,10 @@ const educationInfo = {
       logo: require("./assets/images/parulLogo.png"),
       subHeader: "Bachelors of Technology in Computer Science and Engineering",
       duration: "Jul 2018 – Mar 2022",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "",
       descBullets: [
         "Teaching Assistant Intern at University, where assited 2nd year computer science students in grasping core data structures like linked lists, arrays, stacks, queues, trees, and hash tables. Provided individualized support to students during coding exercises and assignments, ensuring their comprehension and growth in implementing data structures and algorithms.",
-        "Strategic Core at Projection (Volunteer-ship), responsible for providing creative ideas, and conducting expansive and detailed analysis to make well informed strategic decisions for Projections which had 7000 participants and 15000 viewers in past years."]
+        "Strategic Core at Projection (Volunteer-ship), responsible for providing creative ideas, and conducting expansive and detailed analysis to make well informed strategic decisions for Projections which had 7000 participants and 15000 viewers in past years"]
     }
   ]
 };
@@ -136,13 +131,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://www.linkedin.com/in/manavchetwani/",
+      url: "",
       title: "Gyandip Mallhi : Former Data Engineer @ Jio Platforms (Reliance)",
       description:
-        "Manav was an intern at the firm i worked at. He has great drive and is a quick learner."
+        "Amaan was an intern at the firm i worked at. He has great drive and is a quick learner."
     },
     {
-      url: "https://www.linkedin.com/in/manavchetwani/",
+      url: "",
       title: "Shweta Ajay : Senior Data Processing Specialist/SME at NielsenIQ",
       description:
         "I found him to be hard-working, bright, and a skilled communicator. I particularly enjoyed his sense of humor in the face of what can sometimes be a stressful situation when faced with tight deadlines. But what makes him stand out is his willingness to help others and his extraordinary ability of problem solving. A very active person with a strong will to be at par with excellence."
@@ -178,42 +173,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "ML Engineer Intern",
-      company: "BlackBerry",
+      role: "Software Developer",
+      company: "Hifinite Health Care",
       companylogo: require("./assets/images/blackberryLogo.png"),
       date: "Jan 2024 - April 2024",
       descBullets: [
-        "Deployed machine learning models, specializing in DNN, XGBoost, RNN (LSTM) and LLM, to analyze and mitigate cybersecurity threats within large datasets, enhancing BlackBerry's security infrastructure.",
-        "Utilized Principal Component Analysis and SMOTE for advanced feature engineering, optimizing representation and mitigating bias. Improved machine learning model performance by 8%.",
-        "Implemented Local Outlier Factor and Isolation Forest algorithms to detect outliers, enhancing data integrity.",
-        " Collaborated seamlessly with cross-functional teams by actively utilizing Jira and Confluence, ensuring effective project management and streamlined communication.",
-        "Applied Python and SQL Server for robust data analysis and algorithm implementation, ensuring the identification and prevention of security vulnerabilities, showcasing a commitment to data-driven security measures."
+        "Architect, design, implement, and maintain high-performance, scalable systems on-premises and in the Cloud.",
+        "Execute projects in entirety from feature specification, through architecture, design, implementation, and validation.",
+        "Deploy code in production, debug, and fix production issues.",
+        "Present product proposals, architecture, projects, designs, competitive analysis, technology analysis, case studies, escalation post-mortem, etc. to executive staff.",
+        "Possesses sound knowledge of organization's products."
       ]
     },
     {
-      role: "Data Processing Specialist",
-      company: "NeilsonIQ",
+      role: "Software Developer Internship",
+      company: "Lytikal Insights",
       companylogo: require("./assets/images/nelisonLogo.png"),
       date: "April 2022 - Dec 2022",
       descBullets: [
-        "Developed automated tools using Python, utilizing libraries such as NumPy, Pandas, and OpenCV.",
-        "Spearheaded database checks and processing for high-profile clients (PNG, Coca-Cola, Heineken, SPG, Pepsi).",
+        "Developed 15+ front-end and back-end web pages utilizing Vue.js, Python, Flask, MySQL, Rest API, and Node.js.",
+        "Execute projects in entirety from feature specification, through architecture, design, implementation, and validation.",
         "Designed and accomplished efficient and scalable automation solutions to improve database management and processing workflows.",
         "Collaborated with cross-functional teams to understand client requirements and translated it into automated solutions, ensuring a 15% increase in timely and high-quality deliverables. ",
         "Enhanced data quality by creating a rigorous testing framework that includes unit and integration tests. This ensures a reliable and error-free data processing pipeline."
-      ]
-    },
-    {
-      role: "Big Data Engineer",
-      company: "JIO Reliance Industries LTD",
-      companylogo: require("./assets/images/jioLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      descBullets: [
-        "Performed Spark jobs on petabytes of incoming data with Azure Databricks, harnessing the parallel processing and fault-tolerance of Spark's distributed computing framework to meticulously analyze large-scale datasets across a spectrum of use cases. ",
-        "Demonstrated proficiency in designing and implementing prototypes for various data architecture solutions, gaining a deep understanding of different architectural patterns and its applicability to specific business requirements. ",
-        "Designed the data pipeline architecture using Apache Airflow in team of 5 for a new product called JIO Meet that scaled from 0 to 350,000 daily active users. ",
-        "Worked closely with data scientists and analysts to understand data requirements and providing necessary datasets and transformations using services like Azure Machine Learning and Azure Data Factory for their analytical and modeling tasks"
-    
       ]
     }
   ]
@@ -368,7 +350,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 
@@ -395,8 +377,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1(437)-599-4919",
-  email_address: "manav01chetwani@gmail.com"
+  number: "+1(647)-916-6242",
+  email_address: "amaanvahora7294@gmail.com"
 };
 
 // Twitter Section
