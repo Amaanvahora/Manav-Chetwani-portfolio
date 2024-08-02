@@ -20,22 +20,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Amaan Vahora",
-  title: "Hi all, I'm Amaan Vahora",
+  username: "Manav Chetwani",
+  title: "Hi all, I'm Manav Chetwani",
   subTitle: emoji(
-    "Over 2+ years of work experience as a Software Developer .Skilled in architecting end-to-end Softwares, harnessing technologies such as Blockchain and Web3."
-  ),
+    "Over 3 years of work experience as a Machine Learning Engineer and Data Engineer.Skilled in architecting end-to-end ETL processes, harnessing technologies such as Spark, Spark Streaming, Databricks, and Azure Data Factory, to efficiently manage and process large-scale data pipelines."),
   resumeLink:
-    "https://drive.google.com/file/d/1f1U_5soQsE43XCSmuNxGm3mqvrC3Nbc8/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1CqsjL5H28YLdTEaAm9v3TXmmtcq-M88z/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Amaanvahora",
-  linkedin: "https://www.linkedin.com/in/amaan-vahora-443a531b7/",
-  gmail: "amaanvahora7294@gmail.com@gmail.com",
+  github: "https://github.com/mnx02",
+  linkedin: "https://www.linkedin.com/in/manavchetwani/",
+  gmail: "manav01chetwani@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,11 +47,17 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji(
-      "⚡ Scripting Languages: C, C++, Python, Java, Scala, HTML, Shell Scripting,Solidity, Typescript, React"
+      "⚡ Scripting Languages: C, C++, Python, Java, Scala, HTML, Shell Scripting"
+    ),
+    emoji(
+      "⚡ Big Data Processing Tools: Apache Hadoop, Apache Spark, Apache Hive, Apache Kafka"
     ),
     emoji("⚡ Database: MongoDB, SQL, MySQL"),
+    emoji(
+      "⚡ Machine Learning Tools: Tensorflow, Keras, PyTorch, XGBoost, Naive Bayes, Numpy, Pandas"
+    ),
     emoji("⚡ Version Control & Management: Git, GitLab, Github, JIRA"),
-    emoji("⚡ Others: Docker, Jenkins, CI/CD, REST APIs, Django, JSON, XML,Terraform, Ganache, Kubernetes")
+    emoji("⚡ Others: Docker, Jenkins, CI/CD, REST APIs, Django, JSON, XML,Microsoft Office")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -64,8 +69,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "smart contracts",
-      fontAwesomeClassname: "fas fab fa-file-contract"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "database",
@@ -101,14 +106,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "George Brown College",
+      schoolName: "University of Windsor",
       logo: require("./assets/images/windsorLogo.png"),
-      subHeader: "Post Graduation in Blockchain Technology",
-      duration: "Sept 2023 – Aug 2024",
+      subHeader: "Masters of Applied Computing ",
+      duration: "Jan 2023 – Aug 2024",
       desc: "",
       descBullets: [
-        "Developed several impactful projects like a Personalized Defi-app Token exchanger that integrates Web 3 and diverse classification of Blockchains for doing Uniswap.",
-        "I conducted a Comparative Study of Devops tools like Docker, Kubernetes, Ganache, Jenkins."
+        "Developed several impactful projects like a Personalized Edu-Career Recommender that integrates big data analytics and diverse classification algorithms for accurate predictions in education and employment decisions.",
+        "I conducted a Comparative Study of Trainable Networks in Transfer Learning for Dog Breed Identification, exploring different architectures for transfer learning models. I also developed WeSeeU, a proof-of-concept software to make games accessible to visually impaired people, which was selected for the Annual Demo Day presentation."
       ]
     },
     {
@@ -134,7 +139,7 @@ const blogSection = {
       url: "",
       title: "Gyandip Mallhi : Former Data Engineer @ Jio Platforms (Reliance)",
       description:
-        "Amaan was an intern at the firm i worked at. He has great drive and is a quick learner."
+        "Manav was an intern at the firm i worked at. He has great drive and is a quick learner."
     },
     {
       url: "",
@@ -173,31 +178,45 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Developer",
-      company: "Hifinite Health Care",
+      role: "ML Engineer Intern",
+      company: "BlackBerry",
       companylogo: require("./assets/images/blackberryLogo.png"),
-      date: "Jan 2024 - April 2024",
+      date: "Jan 2024 - August 2024",
       descBullets: [
-        "Architect, design, implement, and maintain high-performance, scalable systems on-premises and in the Cloud.",
-        "Execute projects in entirety from feature specification, through architecture, design, implementation, and validation.",
-        "Deploy code in production, debug, and fix production issues.",
-        "Present product proposals, architecture, projects, designs, competitive analysis, technology analysis, case studies, escalation post-mortem, etc. to executive staff.",
-        "Possesses sound knowledge of organization's products."
+        "Deployed DNN, XGBoost, RNN (LSTM) and LLM, to analyze and mitigate cybersecurity threats within large datasets, enhancing BlackBerry's security infrastructure.",
+        "Implemented MLflow for model deployment and tracking in Unity Catalog, managing models and artifacts effectively. Streamlined the process for model versioning, evaluation, and reproducibility across the team, enhancing collaboration and deployment efficiency.",
+        "Utilized Principal Component Analysis and SMOTE for advanced feature engineering, optimizing representation and mitigating bias. Improved machine learning model performance by 8%.",
+        "Leveraged PySpark for scalable and efficient data transformations as well as Integrated streaming data seamlessly, demonstrating expertise in distributed computing for handling large-scale datasets.",
+        "Collaborated seamlessly with cross-functional teams by actively utilizing Jira and Confluence, ensuring effective project management and streamlined communication.",
+        "Applied Python and SQL Server for ensuring the identification and prevention of security vulnerabilities, showcasing a commitment to data-driven security measures.",
       ]
     },
     {
-      role: "Software Developer Internship",
-      company: "Lytikal Insights",
+      role: "Data Processing Specialist",
+      company: "NelisonIQ",
       companylogo: require("./assets/images/nelisonLogo.png"),
       date: "April 2022 - Dec 2022",
       descBullets: [
-        "Developed 15+ front-end and back-end web pages utilizing Vue.js, Python, Flask, MySQL, Rest API, and Node.js.",
-        "Execute projects in entirety from feature specification, through architecture, design, implementation, and validation.",
-        "Designed and accomplished efficient and scalable automation solutions to improve database management and processing workflows.",
-        "Collaborated with cross-functional teams to understand client requirements and translated it into automated solutions, ensuring a 15% increase in timely and high-quality deliverables. ",
-        "Enhanced data quality by creating a rigorous testing framework that includes unit and integration tests. This ensures a reliable and error-free data processing pipeline."
+       "Developed automated tools using Python, utilizing libraries such as NumPy, Pandas, and OpenCV.",
+       "Spearheaded database checks and processing for high-profile clients (PNG, Coca-Cola, Heineken, SPG, Pepsi).",
+       "Collaborated with cross-functional teams to understand client requirements and translated it into automated solutions, ensuring a 15% increase in timely and high-quality deliverables.",
+       "Orchestrated rigorous testing procedures using industry-standard testing tools like PyTest to validate the functionality and reliability of automated tools, ensuring they meet the highest quality standards.",
+       "Enhanced data quality by creating a rigorous testing framework that includes unit and integration tests. This ensures a reliable and error-free data processing pipeline."
       ]
-    }
+    },
+    {
+      role: "Big Data Engineer",
+      company: "JIO Reliance Industries LTD, India",
+      companylogo: require("./assets/images/jioLogo.png"),
+      date: "Jan 2015 - Sept 2022",
+      descBullets: [
+        "Performed Spark jobs on petabytes of incoming data with Azure Databricks, harnessing the parallel processing and fault-tolerance of Spark's distributed computing framework to meticulously analyze large-scale datasets across a spectrum of use cases.",
+        "Developed and maintained data tables in Hive, enabling efficient data storage and retrieval for analytical purposes, and ensuring optimal query performance.",
+        "Designed the data pipeline architecture using Apache Airflow in team of 5 for a new product called JIO Meet that scaled from 0 to 350,000 daily active users.",
+        "Reduced data processing time by 12% by optimizing ETL workflows using Apache Spark and Python and implemented parallel processing techniques using Hadoop and HDFS. ",
+        "Utilized Azure Cosmos DB, Azure SQL Storage, and Azure Data Lake to efficiently manage and store large datasets,resulting in a 20% reduction in storage costs."
+      ]
+    },
   ]
 };
 
@@ -350,7 +369,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 
@@ -368,7 +387,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://drive.google.com/drive/folders/1s0-h1lcoscfgE3J_gwrpJFtaqlr55Jg4"
+    "https://drive.google.com/file/d/1CqsjL5H28YLdTEaAm9v3TXmmtcq-M88z/view"
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -377,8 +396,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1(647)-916-6242",
-  email_address: "amaanvahora7294@gmail.com"
+  number: "+1(437)-599-4919",
+  email_address: "manav01chetwani@gmail.com"
 };
 
 // Twitter Section
